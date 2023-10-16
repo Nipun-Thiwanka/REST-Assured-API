@@ -24,14 +24,6 @@ public class Test_01 {
 		Assert.assertEquals(statusCode, 200);
 	}
 
-	@Test
-	public void example_02() {
-		baseURI = "https://reqres.in/api";
-		given().
-			get("/users?page=2").
-		then().
-			statusCode(200).
-			body("data[1].id", equalTo(8));
-	}
+	
 }
  

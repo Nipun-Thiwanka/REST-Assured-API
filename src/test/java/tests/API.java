@@ -60,7 +60,6 @@ public class API {
 
         response.then().statusCode(200);
 
-        // Extract the "id" from the response and store it in the newResourceId variable
         newResourceId = response.jsonPath().getString("id");
         
      // Print the value of newResourceId
