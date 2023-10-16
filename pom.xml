@@ -6,13 +6,12 @@
   
   <dependencies>
 	  <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
-<dependency>
+	<dependency>
     <groupId>io.rest-assured</groupId>
     <artifactId>rest-assured</artifactId>
     <version>5.3.2</version>
     <scope>test</scope>
 </dependency>
-
 
 <dependency>
     <groupId>org.testng</groupId>
@@ -21,13 +20,11 @@
     <scope>test</scope>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
 <dependency>
     <groupId>com.googlecode.json-simple</groupId>
     <artifactId>json-simple</artifactId>
     <version>1.1.1</version>
 </dependency>
-
 
   </dependencies>
 </project>

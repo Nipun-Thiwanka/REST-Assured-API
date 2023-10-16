@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\thiwa\AppData\Local\Temp\testng-eclipse--958979540\testng-customsuite.xml</span>
+                    <span>C:\Users\ThiwankaRa\AppData\Local\Temp\testng-eclipse--1362877450\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,27 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.Test_01" class="method navigator-link" hash-for-method="example_02">example_02</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.API" class="method navigator-link" hash-for-method="DeleteRequest">DeleteRequest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.Test_01" class="method navigator-link" hash-for-method="example_1">example_1</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.API" class="method navigator-link" hash-for-method="GetRequest">GetRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.API" class="method navigator-link" hash-for-method="GetSpecificItem">GetSpecificItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.API" class="method navigator-link" hash-for-method="PostRequest">PostRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.API" class="method navigator-link" hash-for-method="PutRequest">PutRequest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -126,21 +141,42 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.Test_01</span>
+              <span class="class-name">tests.API</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="example_02">
-                  </a> <!-- example_02 -->
-                  <span class="method-name">example_02</span>
+                  <a name="DeleteRequest">
+                  </a> <!-- DeleteRequest -->
+                  <span class="method-name">DeleteRequest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="example_1">
-                  </a> <!-- example_1 -->
-                  <span class="method-name">example_1</span>
+                  <a name="GetRequest">
+                  </a> <!-- GetRequest -->
+                  <span class="method-name">GetRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetSpecificItem">
+                  </a> <!-- GetSpecificItem -->
+                  <span class="method-name">GetSpecificItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PostRequest">
+                  </a> <!-- PostRequest -->
+                  <span class="method-name">PostRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PutRequest">
+                  </a> <!-- PutRequest -->
+                  <span class="method-name">PutRequest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -148,7 +184,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\thiwa\AppData\Local\Temp\testng-eclipse--958979540\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ThiwankaRa\AppData\Local\Temp\testng-eclipse--1362877450\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -157,7 +193,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.Test_01&quot;/&gt;
+      &lt;class name=&quot;tests.API&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -197,20 +233,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'example_02')
-data.setCell(0, 2, 'tests.Test_01')
-data.setCell(0, 3, 7770);
+data.setCell(0, 1, 'GetRequest')
+data.setCell(0, 2, 'tests.API')
+data.setCell(0, 3, 1485);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'example_1')
-data.setCell(1, 2, 'tests.Test_01')
-data.setCell(1, 3, 76);
+data.setCell(1, 1, 'PutRequest')
+data.setCell(1, 2, 'tests.API')
+data.setCell(1, 3, 316);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'GetSpecificItem')
+data.setCell(2, 2, 'tests.API')
+data.setCell(2, 3, 259);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'PostRequest')
+data.setCell(3, 2, 'tests.API')
+data.setCell(3, 3, 238);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'DeleteRequest')
+data.setCell(4, 2, 'tests.API')
+data.setCell(4, 3, 4);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -236,14 +284,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.Test_01</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">example_02</span>
+              <div class="chronological-class-name">tests.API</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">DeleteRequest</span>
+                <span class="method-start">306 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">example_1</span>
-                <span class="method-start">7774 ms</span>
+                <span class="method-name">GetRequest</span>
+                <span class="method-start">312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetSpecificItem</span>
+                <span class="method-start">1799 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PostRequest</span>
+                <span class="method-start">2059 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PutRequest</span>
+                <span class="method-start">2299 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
