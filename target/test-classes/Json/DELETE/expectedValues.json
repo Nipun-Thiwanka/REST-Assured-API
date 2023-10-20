@@ -4,8 +4,8 @@
     "deleteEndpoint": "/objects"
   },
   {
-    "postEndpoint": "/otherEndpoint",
-    "deleteEndpoint": "/otherEndpoint"
+    "postEndpoint": "/objects",
+    "deleteEndpoint": "/objects"
   }
-  // Add more endpoint pairs as needed
+
 ]

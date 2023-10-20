@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-20T12:28:27 IST" name="Default suite" finished-at="2023-10-20T12:28:27 IST" duration-ms="489">
+  <suite started-at="2023-10-20T12:33:49 IST" name="Default suite" finished-at="2023-10-20T12:33:51 IST" duration-ms="2810">
     <groups>
     </groups>
-    <test started-at="2023-10-20T12:28:27 IST" name="Default test" finished-at="2023-10-20T12:28:27 IST" duration-ms="489">
+    <test started-at="2023-10-20T12:33:49 IST" name="Default test" finished-at="2023-10-20T12:33:51 IST" duration-ms="2810">
       <class name="tests.APITests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.APITests@d9345cd]" started-at="2023-10-20T12:28:27 IST" name="setup" finished-at="2023-10-20T12:28:27 IST" duration-ms="452" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.APITests@d9345cd]" started-at="2023-10-20T12:33:49 IST" name="setup" finished-at="2023-10-20T12:33:49 IST" duration-ms="457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="deleteObjectTest()[pri:0, instance:tests.APITests@d9345cd]" started-at="2023-10-20T12:28:27 IST" name="deleteObjectTest" finished-at="2023-10-20T12:28:27 IST" duration-ms="8" status="PASS">
+        <test-method signature="deleteObjectTest()[pri:0, instance:tests.APITests@d9345cd]" started-at="2023-10-20T12:33:49 IST" name="deleteObjectTest" finished-at="2023-10-20T12:33:51 IST" duration-ms="2321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteObjectTest -->
