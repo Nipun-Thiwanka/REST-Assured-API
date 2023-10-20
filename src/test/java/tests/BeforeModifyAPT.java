@@ -13,7 +13,7 @@ import static org.testng.Assert.assertNotNull;
 import java.util.List;
 import java.util.Map;
 
-public class API {
+public class BeforeModifyAPT {
 	public String newResourceId;
     @BeforeTest
     public void setup() {
@@ -120,8 +120,3 @@ public class API {
         }
     }
 }
-
-    
-    
-    
-

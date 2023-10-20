@@ -1,0 +1,11 @@
+[
+  {
+    "postEndpoint": "/objects",
+    "deleteEndpoint": "/objects"
+  },
+  {
+    "postEndpoint": "/otherEndpoint",
+    "deleteEndpoint": "/otherEndpoint"
+  }
+  // Add more endpoint pairs as needed
+]
